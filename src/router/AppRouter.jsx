@@ -1,19 +1,15 @@
-import { Layout } from "@components";
 import { Home } from "@pages";
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Outlet } from "react-router-dom";
 
-const children = [
-  { element: <Home />, path: "/" },
-  { element: <>report-crime</>, path: "report-crime" },
-  { element: <>Fraud-detection</>, path: "fraud-detection" },
-  { element: <>Statistics</>, path: "statistics" },
-  { element: <>Blog</>, path: "blog" },
-  { element: <>Tips</>, path: "tips" },
-];
+const children = [{ element: <Home />, path: "/" }];
 
 export const router = createBrowserRouter([
   {
-    element: <Layout />,
+    element: (
+      <>
+        <Outlet></Outlet>
+      </>
+    ),
     path: "",
     errorElement: (
       <a href="/" className="text-center">
