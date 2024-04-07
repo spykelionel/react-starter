@@ -1,0 +1,33 @@
+@import url("./base.css");
+@import url("https://fonts.cdnfonts.com/css/georgia");
+
+body {
+  font-family: "Georgia", Georgia, "Times New Roman", Times, serif;
+}
+
+@media (min-width: 1200px) {
+  .page-footer {
+    max-width: auto !important;
+  }
+  .responsive {
+    display: inline-block;
+  }
+}
+@media (min-width: 600px) {
+  .page-footer {
+    padding-left: auto;
+    padding-right: auto !important;
+  }
+  .responsive {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .complain-img {
+    display: none;
+  }
+  .fix-screen {
+    flex-direction: column !important;
+  }
+}

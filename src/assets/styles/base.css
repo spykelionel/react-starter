@@ -1,0 +1,137 @@
+@import url("https://fonts.cdnfonts.com/css/georgia");
+
+:root {
+  --primary-color: #005db9;
+}
+
+body {
+  font-family: "Georgia", Georgia, "Times New Roman", Times, serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+.bg-primary {
+  background: var(--primary-color) !important;
+}
+
+.rounded-border {
+  border-radius: 10px !important;
+}
+
+.rounded-border-sm {
+  border-radius: 5px !important;
+}
+
+.btn-disabled {
+  color: #726c6c;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-dark {
+  color: #000 !important;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.bg-dark {
+  background-color: #14171d !important;
+  color: #fff;
+}
+
+.width-fit {
+  width: fit-content;
+}
+
+.border-secondary {
+  border: 1px solid #fff;
+}
+
+.border-bottom {
+  border-bottom: 2px solid;
+}
+
+.border-primary {
+  border-color: var(--primary-color);
+}
+
+.self-center {
+  align-self: center;
+}
+
+.color-medium-blue {
+  color: mediumblue;
+}
+
+.font-bold {
+  font-weight: bold !important;
+}
+
+.color-gold {
+  color: #fbf82d !important;
+}
+
+a:active {
+  color: var(--primary-color) !important;
+}
+
+.super-box-shadow {
+  border: none !important;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1) !important;
+}
+
+.border-radius-md {
+  border-radius: 5px !important;
+}
+
+.border-radius-full {
+  border-radius: 50% !important;
+}
+
+.card {
+  border-radius: 10px !important;
+  padding: 5px;
+  margin: 2px;
+  color: #fff !important;
+  border: none !important;
+}
+
+.blue {
+  background-color: #3e78ec !important;
+}
+.green {
+  background-color: #0fa958 !important;
+}
+.red {
+  background-color: #e96165 !important;
+}
+
+.gold {
+  background-color: #c5c473 !important;
+}
+
+.active {
+  border-bottom: 2px solid #3e78ec;
+}

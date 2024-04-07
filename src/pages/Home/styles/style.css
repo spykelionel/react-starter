@@ -1,0 +1,29 @@
+.section-head {
+  background: url("../../../assets/images/bg-home.png") center/cover no-repeat;
+  /* position: relative; */
+  backdrop-filter: blur(10px);
+}
+
+.section-head::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  pointer-events: none;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #005cb988; /* Blue overlay with 50% opacity */
+  z-index: -1;
+}
+
+.slanted-div {
+  position: absolute;
+  top: 0rem;
+  right: 0rem;
+  width: fit-content;
+  left: 92%;
+  /* height: 100%; */
+  transform: rotate(60deg); /* Skew the div to create the slanted effect */
+  overflow: hidden; /* Hide overflowing content */
+  /* font-size: 18px; */
+}

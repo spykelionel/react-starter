@@ -1,0 +1,26 @@
+@import url(base.css);
+.list-unstyled li > a {
+  color: #fff;
+}
+.list-unstyled li::before {
+  content: ">";
+  margin-right: 5px;
+  color: var(--primary-color);
+}
+
+.flex {
+  display: flex !important;
+  flex-direction: column;
+}
+
+.justify-center {
+  /* justify-content: center !important; */
+}
+
+.align-center {
+  align-items: center !important;
+}
+
+.w-contain {
+  width: fit-content;
+}
