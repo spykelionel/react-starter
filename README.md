@@ -1,3 +1,6 @@
-# Antic CRS
+# React and Redux/toolkit starter template
 
-Frontend for antic CRS
+## Installation
+
+- Clone project
+- Run `yarn` or `npm install` to install packages
